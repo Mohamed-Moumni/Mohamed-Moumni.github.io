@@ -33,6 +33,7 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+home_post_limit: 5
 
 defaults:
   - scope:
