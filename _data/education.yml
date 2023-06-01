@@ -1,16 +1,19 @@
-- degree: Cisco Networking certification program
-  uni: Riverside Community College
-  year: 2009 &mdash; 2013
+- degree: IT Architect
+  uni: 1337 coding school, Khouribga
+  year: 2021 &mdash; present
   summary: >
-    Focused on computer science and Cisco networking. Completed the 4 course
-    Cisco Networking certification program, and received a certificate of completion.
+    Learning fundamentals of computer Science, by Building projects from scratch and
+    concentrate in Low level, and Algorithms & Data structures.
+- degree: Associate’s degree
+  uni: FSTG, Marrakech
+  year: 2018 &mdash; 2020
+  summary: >
+    Learned fundamentals Mostly math Also an introduction to programming and data
+    structures and algorithms.
+  
 
-#- degree: High School Diploma
-#  uni: Fountain Valley High School
-#  year: 2008
-#  awards:
-#    - award: Graduated with Honors
-#    - award: STAR Advanced Computer Science Award
-#    - award: Coronet Award in Business Education and Computer Science
-#    - award: Track & Field JV MVP
-#  summary:
+- degree: High School diploma
+  uni: Zerktouni, Marrakech
+  year: 2017 &mdash; 2018
+  summary: >
+    Learned basic math mostly, especially Linear algebra, calculus & statistics.
