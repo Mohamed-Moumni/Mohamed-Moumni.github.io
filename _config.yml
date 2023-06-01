@@ -1,43 +1,76 @@
-title: "Moumni's Blog"
-author: "Mohamed Moumni"
-description: "Sharing thoughts about programming and algorithms"
+theme: minima
+
+title: mmoumni
+author: Mohamed Moumni
+email: mmoumniwork@gmail.com
 url: https://mmoumni.me/
 
-email: "mmoumniwork@gmail.com"
-github_username: "Mohamed-Moumni"
-linkedin_username: "mohamed-moumni-6922a41b9"
+timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 
-theme: "minima"
+description: >
+  My first blog. Probably no one else will ever read it, but oh well.
+
+github_username:   Mohamed-Moumni
+linkedin_username: mohamed-moumni-6922a41b9
 
 rss: rss
 
+show_excerpts: false
+
+# Used by simple links page
+social-links:
+  Resume:        https://mmoumni.me/resume/
+  LinkedIn:      https://linkedin.com/in/mohamed-moumni-6922a41b9/
+  GitHub:        https://github.com/Mohamed-Moumni/
+  Website:       https://mmoumni.me/
+
+# plugin: jekyll-seo-tag
 social:
   name: Mohamed Moumni
   links:
-    - https://linkedin.com/in/mohamed-moumni-6922a41b9/
-    - https://github.com/Mohamed-Moumni/
+    - https://linkedin.com/in/mohamed-moumni-6922a41b9
+    - https://github.com/Mohamed-Moumni
+
+# plugin: jekyll-titles-from-headings
+titles_from_headings:
+  strip_title: true
+
+collections:
+  personal: # collection for personal blog posts
+    output: true
+
 header_pages:
-  - about.md
-  - resume.md
+  - resume.html
+  - archive.html
   - books.md
 
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+google_analytics:
+  - UA-185058308-1 # Old GA Universal Analytics property
+  - G-RY6FRPMXHZ # New GA4 property
+
+gravatar_hash: 2136e716a089f4a3794f4007328c7bfb
+code_block_max_height: 500px
 
 home_post_limit: 5
 
 defaults:
   - scope:
       path: ""
-      type: post
     values:
-      tags: Other
+      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tags:
+        - Other # Add a default tag to all posts
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
