@@ -41,8 +41,7 @@ collections:
 
 header_pages:
   - resume.html
-  - archive.html
-  - books.md
+  # - books.md
 
 plugins:
   - jekyll-feed
@@ -61,7 +60,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+      image: https://avatars.githubusercontent.com/u/78799596?v=4 # Apply default site image
   - scope:
       path: ""
       type: posts

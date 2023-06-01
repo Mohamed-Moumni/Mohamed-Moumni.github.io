@@ -1,17 +1,43 @@
-- project: chadbaldwin.net
-  role: Writer
-  duration: Dec, 2020 &mdash; Present
-  url: "https://chadbaldwin.net"
-  description: >
-    I've always enjoyed teaching, and I love learning new technologies and sharing tips and tricks
-    I've picked up over the years. So back in Dec 2020 I decided to build my own blog.
-
-- project: Schema Search, utility stored procedure
+- project: FDF
   role: Developer
-  duration: 2015 &mdash; Present
-  url: "https://github.com/chadbaldwin/SQL"
+  url: "https://github.com/Mohamed-Moumni/FDF"
+  language: C
   description: >
-    "Schema Search" as I've been calling it, is a stored procedure that focuses on searching the
-    contents of system objects in order to help my understanding of the SQL Server system tables.
-    Eventually, it turned into a tool that I use, at minimum, on a daily basis. The project is
-    hosted on GitHub and is licensed for anyone to use or contribute!
+    FDF is a 42 Project to learn about 3d programming. The program takes a map as parameter and creates its 3d representation.
+    Render a 3D map from a 2D representation. Initially I was using vectors and simple formulas as illustrated by formula.c file.
+    Later I switched to matrixes.
+    You can rotate, increase altitude coefficient and zoom in/out. All transformations are done through matrixes transformations except for the one translating the picture.
+
+- project: INCEPTION
+  role: Developer
+  language: Bash, Docker, docker-compose
+  url: "https://github.com/Mohamed-Moumni/INCEPTION"
+  description: >
+    This project is an introduction to docker and the concept of containerization,
+    the project job is the set up three containers, one for the Databases containing the MariaDB database that is linked with docker volume,
+    and another container that contains WordPress installed and linked with another volume,
+    those two previous containers are connected via port 3306,
+    and the wordpress container connected to nginx web server that is connected via port 9000 using SSL certificates (TLS v1.2).
+    the nginx container point in the same volume as the one of wordpress.
+
+- project: HTTP-WEBSERVER
+  role: Developer
+  language: C++
+  url: "https://github.com/Mohamed-Moumni/HTTP-WebServer"
+  description: >
+    This project is about writing your an HTTP server, that mimic the behavior of NGINX.
+
+- project: PUSH_SWAP
+  role: Developer
+  language: C
+  url: "https://github.com/Mohamed-Moumni/Push_swap"
+  description: >
+    The Push swap project is a very simple and a highly straightforward algorithm project:data must be sorted.
+    You have at your disposal a set of integer values, 2 stacks, and a set of instructions to manipulate both stacks
+
+- project: MINISHELL
+  role: Developer
+  language: C
+  url: "https://github.com/Mohamed-Moumni/Minishell"
+  description: >
+    This project is about creating a simple shell, that mimic the bash behavior.
