@@ -17,6 +17,7 @@ social:
     - https://linkedin.com/in/mohamed-moumni-6922a41b9/
     - https://github.com/Mohamed-Moumni/
 header_pages:
+  - about.md
   - resume.md
   - books.md
 
