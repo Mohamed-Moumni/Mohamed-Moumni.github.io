@@ -2,7 +2,7 @@
 layout: cv
 title: Resume
 ---
-
+<body style="background-color: #D3D3D3;">
 <center style="font-size: 30px">Mohamed Moumni</center>
 
 <center style="font-size: 10px" > SOFTWARE ENGINEER STUDENT </center>
