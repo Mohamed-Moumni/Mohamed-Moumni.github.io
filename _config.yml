@@ -1,0 +1,50 @@
+title: "Moumni's Blog"
+author: "Mohamed Moumni"
+description: "Sharing thoughts about programming and algorithms" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+url: https://mmoumni.me/
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+email: "mmoumniwork@gmail.com"
+github_username: "Mohamed-Moumni"
+linkedin_username: "mohamed-moumni-6922a41b9"
+#facebook_username: username
+#flickr_username: username
+#instagram_username: username
+#pinterest_username: username
+#youtube_username: username
+#googleplus_username: +username
+
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+theme: "minima"
+
+rss: rss
+
+social:
+  name: Chad Baldwin
+  links:
+    - https://linkedin.com/in/mohamed-moumni-6922a41b9/
+    - https://github.com/Mohamed-Moumni/
+header_pages:
+  - resume.md
+  - books.md
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
