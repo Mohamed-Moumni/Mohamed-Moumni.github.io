@@ -1,14 +1,11 @@
-- project: FDF
-  url: "https://github.com/Mohamed-Moumni/FDF"
-  description: >
-    FDF is a 42 Project to learn about 3d programming. The program takes a map as parameter and creates its 3d representation.
-    Render a 3D map from a 2D representation. Initially I was using vectors and simple formulas as illustrated by formula.c file.
-    Later I switched to matrixes.
-    You can rotate, increase altitude coefficient and zoom in/out. All transformations are done through matrixes transformations except for the one translating the picture.
+- project: HTTP-WEBSERVER
+  url: "https://github.com/Mohamed-Moumni/HTTP-WebServer"
+  description:
+    This project is about writing your an HTTP server, that mimic the behavior of NGINX.
 
 - project: INCEPTION
   url: "https://github.com/Mohamed-Moumni/INCEPTION"
-  description: >
+  description:
     This project is an introduction to docker and the concept of containerization,
     the project job is the set up three containers, one for the Databases containing the MariaDB database that is linked with docker volume,
     and another container that contains WordPress installed and linked with another volume,
@@ -16,18 +13,21 @@
     and the wordpress container connected to nginx web server that is connected via port 9000 using SSL certificates (TLS v1.2).
     the nginx container point in the same volume as the one of wordpress.
 
-- project: HTTP-WEBSERVER
-  url: "https://github.com/Mohamed-Moumni/HTTP-WebServer"
-  description: >
-    This project is about writing your an HTTP server, that mimic the behavior of NGINX.
+- project: MINISHELL
+  url: "https://github.com/Mohamed-Moumni/Minishell"
+  description: 
+    This project is about creating a simple shell, that mimic the bash behavior.
 
 - project: PUSH_SWAP
   url: "https://github.com/Mohamed-Moumni/Push_swap"
-  description: >
+  description: 
     The Push swap project is a very simple and a highly straightforward algorithm project:data must be sorted.
     You have at your disposal a set of integer values, 2 stacks, and a set of instructions to manipulate both stacks
 
-- project: MINISHELL
-  url: "https://github.com/Mohamed-Moumni/Minishell"
-  description: >
-    This project is about creating a simple shell, that mimic the bash behavior.
+- project: FDF
+  url: "https://github.com/Mohamed-Moumni/FDF"
+  description:
+    FDF is a 42 Project to learn about 3d programming. The program takes a map as parameter and creates its 3d representation.
+    Render a 3D map from a 2D representation. Initially I was using vectors and simple formulas as illustrated by formula.c file.
+    Later I switched to matrixes.
+    You can rotate, increase altitude coefficient and zoom in/out. All transformations are done through matrixes transformations except for the one translating the picture.
