@@ -6,7 +6,6 @@ email: mmoumniwork@gmail.com
 url: https://mmoumni.me/
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
-future: false
 
 description: >
   
