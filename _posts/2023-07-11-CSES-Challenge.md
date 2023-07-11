@@ -2,7 +2,7 @@
 layout: post
 title: "CSES Challenge"
 description: "enrolling new challenge"
-date: 2023-07-11T07:00:00-07:00
+date: 2023-07-11
 tags: Problem-Solving
 image: /img/blogImg/algo&ds.png
 ---
