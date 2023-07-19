@@ -11,7 +11,7 @@ description: >
   
 
 github_username:   Mohamed-Moumni
-linkedin_username: mohamed-moumni-6922a41b9
+linkedin_username: mmoumni
 
 rss: rss
 
@@ -20,7 +20,7 @@ show_excerpts: false
 # Used by simple links page
 social-links:
   Resume:        https://mmoumni.me/resume/
-  LinkedIn:      https://linkedin.com/in/mohamed-moumni-6922a41b9/
+  LinkedIn:      https://linkedin.com/in/mmoumni/
   GitHub:        https://github.com/Mohamed-Moumni/
   Website:       https://mmoumni.me/
 
@@ -28,7 +28,7 @@ social-links:
 social:
   name: Mohamed Moumni
   links:
-    - https://linkedin.com/in/mohamed-moumni-6922a41b9
+    - https://linkedin.com/in/mmoumni
     - https://github.com/Mohamed-Moumni
 
 # plugin: jekyll-titles-from-headings
@@ -41,7 +41,7 @@ collections:
 
 header_pages:
   - resume.html
-  # - books.md
+  - archive.html
 
 plugins:
   - jekyll-feed
