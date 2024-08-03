@@ -47,10 +47,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-#google_analytics:
-  - ## YOUR GOOGLE ANALYTICS TAG HERE ##
-
-#gravatar_hash: ## YOUR GRAVATAR HASH HERE ##
 code_block_max_height: 500px
 
 home_post_limit: 5
